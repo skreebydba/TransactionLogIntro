@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TranLogIntro">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="fbgsqlsatmad:fbgsqlsatmad\skreeby">
+          <Created>2018-04-07T14:29:58.798271+00:00</Created>
+          <Type>SQL</Type>
+          <Server>fbgsqlsatmad</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="LG - 1 - CreateBigLogDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 1 - CreateBigLogDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 2 - CreateSmallLogDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 2 - CreateSmallLogDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 3 - CreateTestTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 3 - CreateTestTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 4 - CreateInsertBigLogTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 4 - CreateInsertBigLogTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 5 - CreateInsertSmallLogTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 5 - CreateInsertSmallLogTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 6 ExecInsertProcs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LG - 6 ExecInsertProcs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 7 - GetLogSize.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LG - 7 - GetLogSize.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LG - 8 - BackupLogs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LG - 8 - BackupLogs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LR - 1 - CreateDatabases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LR - 1 - CreateDatabases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LR - 2 - CreateAndLoadTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LR - 2 - CreateAndLoadTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LR - 3 - GetTransactionInfo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LR - 3 - GetTransactionInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LR - 4 - RunOneTran.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LR - 4 - RunOneTran.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LR - 5 - RunLoopTran.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LR - 5 - RunLoopTran.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RB - 1 - CreateRollbackTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgsqlsatmad:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgsqlsatmad</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RB - 1 - CreateRollbackTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RB - 2 - RollbackInserts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RB - 2 - RollbackInserts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RB - 3 - RollbackDeletes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RB - 3 - RollbackDeletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RB - 4 - RollbackUpdates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RB - 4 - RollbackUpdates.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
